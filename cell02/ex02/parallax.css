@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.parallax {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg1 {
+    background-image: url("https://i.pinimg.com/1200x/27/0a/43/270a43a0f9feaa1ee6b1bcb4203b0782.jpg");
+}
+.bg2 {
+    background-image: url("https://i.pinimg.com/1200x/05/35/aa/0535aa40980766a6302dad4890226fe2.jpg");
+}
+.section.black {
+    background: black;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
